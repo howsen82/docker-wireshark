@@ -11,7 +11,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=Asia/Kuching
     volumes:
       - /data/wireshark/config:/config
     ports:
